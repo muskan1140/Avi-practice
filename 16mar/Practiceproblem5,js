@@ -1,0 +1,12 @@
+function linearsearch(arr , number){
+    for (let m=0; m<arr.length; m++){
+        if(arr[m] === number){
+            return m
+        }
+    }
+    return -1;
+}
+
+let m = linearsearch( [6,7,8,9,10] , 9);
+
+console.log(m);
