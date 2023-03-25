@@ -1,0 +1,34 @@
+let per1={
+    Name:"Muskan kapoor",
+    age:23,
+    printdetails:function(m){
+        return(this.age+m);
+    }
+}
+
+let per2={
+    Name:"Ashish Verma",
+    age:27,
+
+}
+
+console.log(per1.printdetails.apply(per2,[30]));
+
+
+//passing many arguments
+
+let per3={
+    Name:"Muskan kapoor",
+    age:23,
+    printdetails:function(m,k,s){
+        return(this.age+m+k+s);
+    }
+}
+
+let per4={
+    Name:"Ashish Verma",
+    age:27,
+
+}
+
+console.log(per1.printdetails.apply(per2,[30,"city","country"]));
