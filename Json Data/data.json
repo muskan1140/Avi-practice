@@ -1,0 +1,35 @@
+[
+    
+    {
+      "id": "1",
+        "firstName": "Muskan",
+        "lastName" : "kapoor"
+    },
+    {
+      "id": "2",
+      "firstName": "Jatin",
+      "lastName" : "Arora"
+      
+    },
+    {
+        "id": "3",
+        "firstName": "Divjot",
+        "lastName" : "Singh"
+           
+    },
+    {
+        "id": "4",
+        "firstName": "Raghu",
+        "lastName" : "Gupta"
+    },
+    {
+        "id": "5",
+        "firstName": "Aryan",
+        "lastName" : "Sharma"
+    },
+    {
+        "id": "6",
+        "firstName": "Hitesh",
+        "lastName" : "Pathania"  
+    }
+]
